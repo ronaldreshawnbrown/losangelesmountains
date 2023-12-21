@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital,wght@0,300;1,700&family=Oswald:wght@700&display=swap');
+
+@font-face {
+  font-family: 'Bebas';
+  src: url('../public/fonts/BebasNeue-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('../public/fonts/Lato-BoldItalic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lato-Light';
+  src: url('../public/fonts/Lato-Light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Oswald';
+  src: url('../public/fonts/Oswald-VariableFont_wght.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+.container-fluid {
+  margin-top: -70px;
+}
+
+#home {
+  position: relative;
+}
+
+.background-layer, .foreground-layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.background-layer {
+  background-image: url('../public/images/parallax_back_sky.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 1;
+}
+
+.text-layer {
+  position: relative;
+  z-index: 2; 
+  font-family: 'Oswald', sans-serif;
+  font-weight:bold;
+  font-size: 9em;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  left:25%;
+  top:-8.5%;
+}
+
+.heroTextAdjust {
+  transform: scaleX(1.06);
+  left: 55px;
+  top:-70px;
+  position: relative;
+}
+
+@media (max-width: 768px) {
+  .text-layer {
+    font-size: 3em;
+    left: 10%;
+    top: 0; 
+
+  }
+
+  .heroTextAdjust {
+    left: 8px;
+    top: -25px;
+    transform: scaleX(1.05);
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.foreground-layer {
+  background-image: url('../public/images/parallax_front_mountain.png');
+  z-index: 3;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.snow {
+  background-image: url('../public/images/parallax_snow.png');
+  z-index: 4;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+.z5{
+  z-index:5;
+}
+
+
+.carouselThumbs{
+  width:160px;
+  padding: 0 5px;
+}
+
+
+.fullBg {
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh; 
+}
+
+.fullBg2{
+  background-image: url('../public/images/section2Bg.png');
+}
+.nav-links-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: -15px;
+}
+
+.custom-navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  cursor: pointer;
+}
+
+.logo-image {
+  height: 100%;
+  max-height: 44px;
+  width: auto;
+  margin-right: 5px;
+}
+
+.logoText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 1.4em;
+  line-height: 1; 
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+.logoText span {
+  display: block;
+  margin-bottom: -0.1em;
+}
+
+.grey1 {
+  color: #4d4d4d;
+}
+
+.blue1 {
+  color: #414f6b;
+}
+
+.logoTextAdjust {
+  transform: scaleX(1.1);
+  left: 4px;
+  position: relative;
+}
+
+.menuText{
+  font-family: 'Lato', sans-serif;
+  font-size: .8em;
+  color:white;
+
+  border-bottom: 1px solid white;
+  padding-bottom: 1px; 
+  margin-left: 50px;
+}
+
+.history-carousel {
+  width: 64%;
+  margin: 0 auto; /* Center the carousel */
+}
+
+.full-width-carousel .carousel-inner {
+  width: 100%;
+  height: 100%
+}
+
+.textC{
+  font-family: 'Lato-Light', sans-serif;
+  font-size: 1em;
+}
+
+.textD {
+  font-family: 'Bebas Neue', sans-serif;
+  color: #414f6b;
+  font-size: 1.2em;
+}
+
+.textE {
+  font-family: 'Oswald', sans-serif;
+  font-weight:bold;
+  color: #73839d;
+  font-size: 7em;
+}
+
+.textF {
+  font-family: 'Oswald', sans-serif;
+  color: #b0b4be;
+  font-size: 5em;
+  font-weight:bold;
+}
+
+@media (max-width: 768px) {
+  .image-container {
+    display: none !important;
+  }
+}
+
+.tab-row {
+  height: 370px;
+  background-color: red;
+}
+
+.team-tabs {
+  width: 100%;
+  height: 100%; 
+}
+
+.tab-content {
+  background-color: lightgray;
+  height: 100%; 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.bg-imageTab1 {
+  background-image: url('../public/images/tabBg1.png');
+}
+
+.bg-imageTab2 {
+  background-image: url('../public/images/tabBg2.png');
+}
+
+.tabsContainer {
+  height:570px ;
+  padding: 0
+}
+
+.tabsContainer ul {
+  background-color: #414f6b;
+  height: 40px;
+  margin-right: -12px;
+}
+
+.tabsContainer li:first-child {
+  padding: 0 0 0 23%;
+}
+
+.tabsContainer li button {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1em;
+  font-weight:bold;
+  color: #b0b4be;
+  border-top-left-radius: 0 !important;
+  border-top-right-radius: 0 !important;
+  background-color: #414f6b;
+  height: 39px;
+  border:none;
+}
+
+.tabsContainer li button.active {
+  color: #414f6b !important;
+  background-color: #b0b4be !important;
+  border:none;
+}
+
+nav-link.active{
+  color: #414f6b;
+  background-color: #b0b4be;
+}
+
+.copywriteTxt{
+  font-family: 'Lato', sans-serif;
+  font-size: .7em;
+  color:#63769d;
+}
+
+
+.tab1Inner{
+  padding: 5% 0 0 10px;
+}
+
+.scheduleCard{
+  height: 200px;
+  width: 300px;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 20px 35px 20px 35px;
+}
+
+.scheduleTitle {
+  font-family: 'Oswald', sans-serif;
+  color: #414f6b;
+  font-size: 1.5em;
+  font-weight:bold;
+  margin-bottom: 7px;
+}
+
+
+.scheduleItem {
+  font-family: 'Lato-Light', sans-serif;
+  font-size: .8em;
+  margin-bottom: 5px;
+}
+
+.full-width-carousel.carousel.slide {
+  top:-50px;
+}
+
+.accordion {
+  margin-left: 10px;
+}
+
+.carousel-indicators button{
+  display:relative;
+ margin-bottom:-20px !important;
+}

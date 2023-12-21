@@ -34,7 +34,7 @@ const App = () => {
 
   return (
     <>
-      <Parallax ref={parallax} pages={2.85}>
+      <Parallax ref={parallax} pages={3.5}>
         <Navbar expand="lg" sticky="top" style={{ backgroundColor: navbarBg }}>
           <Container className="custom-navbar">
               <Col md={2}></Col>
@@ -60,7 +60,7 @@ const App = () => {
 
         <Container fluid>
           <Row id="home" className="fullBg fullBg1">
-            <ParallaxLayer offset={0} speed={-.5} factor={1}>
+            <ParallaxLayer offset={0} speed={.3} factor={1}>
               <div className="background-layer"></div>
             </ParallaxLayer>
             
@@ -92,7 +92,7 @@ const App = () => {
                       <div style={{ height: '275px' , padding: '0 17%', display: 'flex', alignItems: 'flex-end', justifyContent: 'left' }}>
                         <span className="textE" style={{marginBottom: "-20px"}}>01.</span> <span className="textD" style={{display: "relative", marginLeft: "-20px", height:"57px"}}>HISTORY</span>
                       </div>
-                      <div className="textC" style={{ height: '525px', display: 'flex', justifyContent: 'left', padding: '0 17%'}}>
+                      <div className="textC" style={{ height: '325px', display: 'flex', justifyContent: 'left', padding: '0 17%'}}>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin in ante viverra, rutrum erat rutrum, consectetur mi. Proin at maximus est. Nullam purus ex, iaculis sed erat sed, blandit tincidunt quam. Cras scelerisque id quam sed dignissim Pellentesque urna nunc, gravida quis hendrerit ac, tristique ut quam. Vivamus suscipit dignissim tortor nec congue. 
                       </div>
 
@@ -108,9 +108,9 @@ const App = () => {
                   <div style={{ height: '100%', display: 'flex', flexDirection: 'column'}}>
                     
                       <div style={{ height: '275px' , padding: '0 17%', display: 'flex', alignItems: 'flex-end', justifyContent: 'left' }}>
-                        <span className="textE" style={{marginBottom: "-20px"}}>02.</span> <span className="textD" style={{display: "relative", marginLeft: "-20px", height:"57px"}}>HISTORY</span>
+                        <span className="textE" style={{marginBottom: "-20px"}}>01.</span> <span className="textD" style={{display: "relative", marginLeft: "-20px", height:"57px"}}>HISTORY</span>
                       </div>
-                      <div className="textC" style={{ height: '525px', display: 'flex', justifyContent: 'left', padding: '0 17%'}}>
+                      <div className="textC" style={{ height: '325px', display: 'flex', justifyContent: 'left', padding: '0 17%'}}>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin in ante viverra, rutrum erat rutrum, consectetur mi. Proin at maximus est. Nullam purus ex, iaculis sed erat sed, blandit tincidunt quam. Cras scelerisque id quam sed dignissim Pellentesque urna nunc, gravida quis hendrerit ac, tristique ut quam. Vivamus suscipit dignissim tortor nec congue. 
                       </div>
 
@@ -126,9 +126,9 @@ const App = () => {
                   <div style={{ height: '100%', display: 'flex', flexDirection: 'column'}}>
                     
                       <div style={{ height: '275px' , padding: '0 17%', display: 'flex', alignItems: 'flex-end', justifyContent: 'left' }}>
-                        <span className="textE" style={{marginBottom: "-20px"}}>03.</span> <span className="textD" style={{display: "relative", marginLeft: "-20px", height:"57px"}}>HISTORY</span>
+                        <span className="textE" style={{marginBottom: "-20px"}}>01.</span> <span className="textD" style={{display: "relative", marginLeft: "-20px", height:"57px"}}>HISTORY</span>
                       </div>
-                      <div className="textC" style={{ height: '525px', display: 'flex', justifyContent: 'left', padding: '0 17%'}}>
+                      <div className="textC" style={{ height: '325px', display: 'flex', justifyContent: 'left', padding: '0 17%'}}>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin in ante viverra, rutrum erat rutrum, consectetur mi. Proin at maximus est. Nullam purus ex, iaculis sed erat sed, blandit tincidunt quam. Cras scelerisque id quam sed dignissim Pellentesque urna nunc, gravida quis hendrerit ac, tristique ut quam. Vivamus suscipit dignissim tortor nec congue. 
                       </div>
 

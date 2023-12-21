@@ -88,6 +88,22 @@
   }
 }
 
+@media (min-width: 769px) and (max-width: 1600px) {
+  .text-layer {
+    font-size: 6em;
+    left: 26%;
+    top: -7%;
+  }
+
+  .heroTextAdjust {
+    left: 45px;
+    top: -50px;
+    transform: scaleX(1.07);
+  }
+}
+
+
+
 html {
   scroll-behavior: smooth;
 }

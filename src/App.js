@@ -60,7 +60,7 @@ const App = () => {
 
         <Container fluid>
           <Row id="home" className="fullBg fullBg1">
-            <ParallaxLayer offset={0} speed={.3} factor={1}>
+            <ParallaxLayer offset={0} speed={-.5} factor={1}>
               <div className="background-layer"></div>
             </ParallaxLayer>
             

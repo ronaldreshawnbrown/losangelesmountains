@@ -104,6 +104,42 @@ const App = () => {
                     </div>
                   </div>
                 </Carousel.Item>
+                <Carousel.Item>
+                  <div style={{ height: '100%', display: 'flex', flexDirection: 'column'}}>
+                    
+                      <div style={{ height: '275px' , padding: '0 17%', display: 'flex', alignItems: 'flex-end', justifyContent: 'left' }}>
+                        <span className="textE" style={{marginBottom: "-20px"}}>01.</span> <span className="textD" style={{display: "relative", marginLeft: "-20px", height:"57px"}}>HISTORY</span>
+                      </div>
+                      <div className="textC" style={{ height: '325px', display: 'flex', justifyContent: 'left', padding: '0 17%'}}>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin in ante viverra, rutrum erat rutrum, consectetur mi. Proin at maximus est. Nullam purus ex, iaculis sed erat sed, blandit tincidunt quam. Cras scelerisque id quam sed dignissim Pellentesque urna nunc, gravida quis hendrerit ac, tristique ut quam. Vivamus suscipit dignissim tortor nec congue. 
+                      </div>
+
+                    <div className="image-container" style={{ height: '100px', display: 'flex', justifyContent: 'center', alignItems: 'center', padding: '0 100px' }}>
+                      <img src="/images/thumbnail1.png" alt="contentImage1" className='carouselThumbs' />
+                      <img src="/images/thumbnail2.png" alt="contentImage2" className='carouselThumbs'/>
+                      <img src="/images/thumbnail3.png" alt="contentImage3" className='carouselThumbs' />
+                      <img src="/images/thumbnail4.png" alt="contentImage4" className='carouselThumbs'/>
+                    </div>
+                  </div>
+                </Carousel.Item>
+                <Carousel.Item>
+                  <div style={{ height: '100%', display: 'flex', flexDirection: 'column'}}>
+                    
+                      <div style={{ height: '275px' , padding: '0 17%', display: 'flex', alignItems: 'flex-end', justifyContent: 'left' }}>
+                        <span className="textE" style={{marginBottom: "-20px"}}>01.</span> <span className="textD" style={{display: "relative", marginLeft: "-20px", height:"57px"}}>HISTORY</span>
+                      </div>
+                      <div className="textC" style={{ height: '325px', display: 'flex', justifyContent: 'left', padding: '0 17%'}}>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin in ante viverra, rutrum erat rutrum, consectetur mi. Proin at maximus est. Nullam purus ex, iaculis sed erat sed, blandit tincidunt quam. Cras scelerisque id quam sed dignissim Pellentesque urna nunc, gravida quis hendrerit ac, tristique ut quam. Vivamus suscipit dignissim tortor nec congue. 
+                      </div>
+
+                    <div className="image-container" style={{ height: '100px', display: 'flex', justifyContent: 'center', alignItems: 'center', padding: '0 100px' }}>
+                      <img src="/images/thumbnail1.png" alt="contentImage1" className='carouselThumbs' />
+                      <img src="/images/thumbnail2.png" alt="contentImage2" className='carouselThumbs'/>
+                      <img src="/images/thumbnail3.png" alt="contentImage3" className='carouselThumbs' />
+                      <img src="/images/thumbnail4.png" alt="contentImage4" className='carouselThumbs'/>
+                    </div>
+                  </div>
+                </Carousel.Item>
               </Carousel>
             </Col>
             <Col md={2}></Col>
